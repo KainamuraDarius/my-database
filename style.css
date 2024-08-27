@@ -1,0 +1,165 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #29aca1;
+}
+
+/* Header styles */
+header {
+    background-color: #7c99ab;
+    color: #7d929b;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 500px; /* Adjust logo height as needed */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+.welcome h2 {
+    margin-bottom: 20px;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+.search input[type="text"] {
+    padding: 8px;
+    width: 60%;
+    margin-right: 10px;
+}
+
+.search button {
+    padding: 8px 15px;
+    background-color: #3da75d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.featured {
+    margin-bottom: 20px;
+}
+
+.quick-links button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.categories button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile h3 {
+    margin-bottom: 10px;
+}
+
+.profile button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.notifications {
+    margin-bottom: 20px;
+}
+
+.notifications h3 {
+    margin-bottom: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d4e0e4;
+}
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: burlywood;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgb(208, 206, 225);
+}
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.message {
+    text-align: center;
+    color: #f00;
+}
+.switch {
+    text-align: center;
+    margin-top: 15px;
+}
+.switch a {
+    text-decoration: none;
+    color: #4caf50;
+    font-weight: bold;
+}
